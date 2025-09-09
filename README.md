@@ -20,7 +20,7 @@ Training method: Train/test/split and test size used is 0.35 along with shuffle 
         {"Accuracy" : 0.98}
         {"Coefficients": {"Height (m)": -31.47, "Weight": 0.40}}
 
-3) DTR: {"Mean Squared Error" : 0.014949935846471123}
+2) DTR: {"Mean Squared Error" : 0.014949935846471123}
         {"Accuracy" : 1.00}
 
 Interpretation: As per the data learned by the model, the above statistics would resemble similar, yet when the above model trained with another huge records, then MLR would be more suitable than DTR model due to the higher R2 score which would result in overfitting of the model.
