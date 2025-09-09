@@ -43,8 +43,9 @@ Interpretation: The difference between MLR and DTR accuracy is found to be 0.002
 ## Possible improvements / real-world applications:
 
 Improvement: The feature columns could be increased such as work hours, sleep duration, family health history.
+
 real-world applications: First level analysis in Hospitals, BMI check before joining a gym, Public awareness creation to follow a proper diet that would reduce percentage category of diabetic people 
 
 ## Conclusion of the project:
 
-From the above analysis, it is recommended to add more features that would more accurately analyse the BMI index using MLR rather than DTR model especially to avoid overfitting of the model to the learning data.
+From the above analysis, it is recommended to add more features which is mentioned in the improvement section that would more accurately analyse the BMI index using MLR rather than DTR model especially to avoid overfitting of the model to the learning data.
