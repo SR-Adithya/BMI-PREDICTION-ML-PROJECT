@@ -5,7 +5,8 @@
 Body Mass Index Prediction using Multiple Linear Regression vs Decision Tree Regression
 
 ## About Dataset
-Name: BMI Data, based on Indian region. Columns used: 'Height (m), 'Weight', 'BMI'
+Name: BMI Data, based on Indian region.
+Columns used: 'Height (m)', 'Weight', 'BMI'
 NO. of Rows used to learn the model: 10000 rows
 
 ## Model Used and Why it is used:
@@ -28,7 +29,8 @@ Interpretation: As per the data learned by the model, the above statistics would
 # Accuracy differences:
 
 Accuracy of Models: 
-                    MLR: 0.98, DTR: 1.00
+                    MLR: 0.98, 
+                    DTR: 1.00
 Interpretation: The difference between MLR and DTR accuracy is found to be 0.002 which tends the DTR model to overfit with the given learning data.
 
 ## Strenghts and Weakness of the model
