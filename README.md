@@ -48,4 +48,4 @@ real-world applications: First level analysis in Hospitals, BMI check before joi
 
 ## Conclusion of the project:
 
-From the above analysis, it is recommended to add more features which is mentioned in the improvement section that would more accurately analyse the BMI index using MLR rather than DTR model especially to avoid overfitting of the model to the learning data.
+From the above analysis, it is recommended to add more features which are mentioned in the improvement section that would more accurately analyse the BMI index using MLR rather than DTR model especially to avoid overfitting of the model to the learning data.
