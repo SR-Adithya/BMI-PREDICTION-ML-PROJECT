@@ -1,3 +1,4 @@
+# MLR MODEL
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
@@ -75,8 +76,8 @@ for types, bmi_range in bmi_table.items():
 
 # prediction for new input values
 
-BMI_test = [[153,64.8]]
-height_cm, weight = BMI_test[0]
+height_cm = float(input("\nEnter the Height in centimeters: "))
+weight = float(input("Enter the Weight in Kilograms: "))
 
 # convert height cm to m
 
@@ -184,8 +185,8 @@ for types, bmi_range in bmi_table.items():
 
 # prediction for new input values
 
-BMI_test = [[153,64.8]]
-height_cm, weight = BMI_test[0]
+height_cm = float(input("\nEnter the Height in centimeters: "))
+weight = float(input("Enter the Weight in Kilograms: "))
 
 # convert height cm to m
 
@@ -222,4 +223,5 @@ else:
     
     category = bmi_desc(BMI)
     print(f"The predicted BMI class is: {category}\n")
+
     
