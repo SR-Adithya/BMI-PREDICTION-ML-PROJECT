@@ -64,7 +64,7 @@ plt.legend()
 plt.show()
 
 # BMI Classification
-print("The BMI predication analysis is based on the Indian region. The Ranges of BMI are classified by expers from ICMR and WHO\n")
+print("The BMI predication analysis is based on the Indian region. The Ranges of BMI are classified by experts from ICMR and WHO\n")
 print("The BMI Ranges and it's description as follows:")
 bmi_table = {"Underweight": "<18.0", "Normal": "18.0 - 22.9", 
              "Overweight (At Risk)":"23.0 - 24.9", "Obese class I":"25.0 - 29.9",
@@ -88,8 +88,6 @@ if height_m <=0 or weight <=0:
     print("Please enter proper Height and weight values")
 else:
     BMI = model.predict([[height_m,weight]])[0]
-    print("The BMI predication analysis is based on the Indian region. The Ranges of BMI are classified by expers from ICMR and WHO\n")
-    print("The BMI Ranges and it's description as follows:")
     print("Weight unit is: Kg (Kilogram)\n")
     print("Height unit is: m^2 (meter squared)\n")
     print("The BMI unit is: kg per m^2\n")
@@ -173,7 +171,7 @@ plt.legend()
 plt.show()
 
 # BMI Classification
-print("The BMI predication analysis is based on the Indian region. The Ranges of BMI are classified by expers from ICMR and WHO\n")
+print("The BMI predication analysis is based on the Indian region. The Ranges of BMI are classified by experts from ICMR and WHO\n")
 print("The BMI Ranges and it's description as follows:")
 bmi_table = {"Underweight": "<18.0", "Normal": "18.0 - 22.9", 
              "Overweight (At Risk)":"23.0 - 24.9", "Obese class I":"25.0 - 29.9",
@@ -197,8 +195,6 @@ if height_m <=0 or weight <=0:
     print("Please enter proper Height and weight values")
 else:
     BMI = model.predict([[height_m,weight]])[0]
-    print("The BMI predication analysis is based on the Indian region. The Ranges of BMI are classified by expers from ICMR and WHO\n")
-    print("The BMI Ranges and it's description as follows:")
     print("Weight unit is: Kg (Kilogram)\n")
     print("Height unit is: m^2 (meter squared)\n")
     print("The BMI unit is: kg per m^2\n")
@@ -225,3 +221,4 @@ else:
     print(f"The predicted BMI class is: {category}\n")
 
     
+
